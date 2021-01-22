@@ -51,7 +51,7 @@ context('Assertions', () => {
     // https://on.cypress.io/assertions
     it('expect - make an assertion about a specified subject', () => {
       // We can use Chai's BDD style assertions
-      expect(true).to.be.true
+      expect(true).to.equal(true)
       const o = { foo: 'bar' }
 
       expect(o).to.equal(o)
